@@ -17,6 +17,7 @@
 
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *stopButton;
 
 @end
 
@@ -27,11 +28,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
     [self.navigationController.navigationBar setTranslucent:NO];
     
     self.recordingLabel.hidden = YES;
-    
+    self.stopButton.hidden = YES;
+
     
     // set up openears language model
     OELanguageModelGenerator *lmGenerator = [[OELanguageModelGenerator alloc] init];
@@ -289,6 +290,7 @@
                 WeAreRecording = YES;
                 
                 self.recordingLabel.hidden = NO;
+                self.stopButton.hidden = NO;
                 
                 //Create temporary URL to record to
                 NSString *outputPath = [[NSString alloc] initWithFormat:@"%@%@", NSTemporaryDirectory(), @"output.mov"];
@@ -407,5 +409,15 @@ didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL
     NSLog(@"A test file that was submitted for recognition is now complete.");
 }
 
+- (IBAction)stopButtonTapped:(id)sender {
+    
+    //----- STOP RECORDING -----
+    NSLog(@"STOP RECORDING");
+    WeAreRecording = NO;
+    self.stopButton.hidden = YES;
+    self.recordingLabel.hidden = YES;
+    [MovieFileOutput stopRecording];
+
+}
 
 @end

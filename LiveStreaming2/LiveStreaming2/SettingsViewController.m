@@ -48,8 +48,6 @@
 }
 
 
-
-
 -(BOOL)textFieldShouldReturn:(UITextField *)textField {
     
     self.customAlertWord = [NSString stringWithFormat:@"%@", self.alertWordTextField.text];
