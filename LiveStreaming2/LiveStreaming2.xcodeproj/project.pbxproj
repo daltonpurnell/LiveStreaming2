@@ -25,6 +25,7 @@
 		CF43D5E21BB8730500BE53C3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF43D5E11BB8730500BE53C3 /* CoreMedia.framework */; };
 		CF43D5E41BB8731F00BE53C3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF43D5E31BB8731F00BE53C3 /* MediaPlayer.framework */; };
 		CF43D5E61BB8733B00BE53C3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF43D5E51BB8733B00BE53C3 /* AssetsLibrary.framework */; };
+		CF43D5E91BB8770100BE53C3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF43D5E81BB8770100BE53C3 /* SettingsViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		CF43D5E11BB8730500BE53C3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CF43D5E31BB8731F00BE53C3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		CF43D5E51BB8733B00BE53C3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CF43D5E71BB8770100BE53C3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CF43D5E81BB8770100BE53C3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				CF43D5A31BB8714C00BE53C3 /* AppDelegate.m */,
 				CF43D5A51BB8714C00BE53C3 /* ViewController.h */,
 				CF43D5A61BB8714C00BE53C3 /* ViewController.m */,
+				CF43D5E71BB8770100BE53C3 /* SettingsViewController.h */,
+				CF43D5E81BB8770100BE53C3 /* SettingsViewController.m */,
 				CF43D5A81BB8714C00BE53C3 /* Main.storyboard */,
 				CF43D5AB1BB8714C00BE53C3 /* Assets.xcassets */,
 				CF43D5AD1BB8714C00BE53C3 /* LaunchScreen.storyboard */,
@@ -321,6 +326,7 @@
 				CF43D5A71BB8714C00BE53C3 /* ViewController.m in Sources */,
 				CF43D5A41BB8714C00BE53C3 /* AppDelegate.m in Sources */,
 				CF43D5A11BB8714C00BE53C3 /* main.m in Sources */,
+				CF43D5E91BB8770100BE53C3 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

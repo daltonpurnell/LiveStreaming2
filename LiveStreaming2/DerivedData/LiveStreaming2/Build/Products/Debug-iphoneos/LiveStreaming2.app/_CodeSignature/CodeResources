@@ -72,11 +72,15 @@
 		<data>
 		U7JFTqF0c1+TO1np9+az4Lbaz8Q=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		kB/DOIzP72FClVodiiL70tA4GfM=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rQ+ox6hRHPrXi1rQFNiX8nyF0vw=
+			Vx8XZg6VRaJDT3jOlE8cSrqkgXY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,7 +98,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XGXCCZ1t5Vf4uup5/2V5Dx3ZUns=
+			Z8WoV+Q2iSMIX4oaoq89l+v+/U4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -103,7 +107,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WK+tCRTf/iwkt7tNd7lXbOFVeHU=
+			n0mbWef7klTgmOG2unLpHAcND3I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/IP3-2p-c3t-view-VU5-GH-gjn.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KhTibm6edgVSYuGa6Zq8gK/CTI4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -112,7 +125,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BFAtz8t+AWymg5/YPOUM6AkqCyM=
+			lGXjo6U442FA/UV+vL1DeTK7Vfo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-9Ka-Rx-IJ1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YAKfzpnsmXWQLO4htbZQBMpVTeQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -121,7 +143,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xfb/n/25+GqWJTaTDQUvZj5dOcc=
+			GulWc4+nMeoNhtZBPDOToAXNQ5M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -209,11 +231,15 @@
 		<data>
 		U7JFTqF0c1+TO1np9+az4Lbaz8Q=
 		</data>
+		<key>Assets.car</key>
+		<data>
+		kB/DOIzP72FClVodiiL70tA4GfM=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rQ+ox6hRHPrXi1rQFNiX8nyF0vw=
+			Vx8XZg6VRaJDT3jOlE8cSrqkgXY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,7 +257,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XGXCCZ1t5Vf4uup5/2V5Dx3ZUns=
+			Z8WoV+Q2iSMIX4oaoq89l+v+/U4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -240,7 +266,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WK+tCRTf/iwkt7tNd7lXbOFVeHU=
+			n0mbWef7klTgmOG2unLpHAcND3I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/IP3-2p-c3t-view-VU5-GH-gjn.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KhTibm6edgVSYuGa6Zq8gK/CTI4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -249,7 +284,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BFAtz8t+AWymg5/YPOUM6AkqCyM=
+			lGXjo6U442FA/UV+vL1DeTK7Vfo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-9Ka-Rx-IJ1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YAKfzpnsmXWQLO4htbZQBMpVTeQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -258,7 +302,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xfb/n/25+GqWJTaTDQUvZj5dOcc=
+			GulWc4+nMeoNhtZBPDOToAXNQ5M=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -37,6 +37,8 @@
 @property (strong, nonatomic) OEFliteController *fliteController;
 @property (weak, nonatomic) IBOutlet UILabel *recordingLabel;
 
+@property (strong, nonatomic) NSString *customAlertWord;
+
 @property (retain) AVCaptureVideoPreviewLayer *PreviewLayer;
 
 - (void) CameraSetOutputProperties;

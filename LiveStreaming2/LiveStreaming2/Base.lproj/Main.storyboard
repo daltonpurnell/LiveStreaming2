@@ -5,6 +5,68 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Settings-->
+        <scene sceneID="nEl-Ng-Ko7">
+            <objects>
+                <viewController id="IP3-2p-c3t" customClass="SettingsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wv9-bi-Emo"/>
+                        <viewControllerLayoutGuide type="bottom" id="dIi-nc-WQN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VU5-GH-gjn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="&quot;Help&quot; is your pre-programmed alert word. Alert Cam will immediately start recording upon hearing this word. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="sQc-eZ-HuZ">
+                                <rect key="frame" x="20" y="72" width="560" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="C2Q-PR-3DI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Add another alert word or phrase below." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="IlH-90-uZ3">
+                                <rect key="frame" x="20" y="181" width="560" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="2jc-i7-TtQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type alert word here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LQB-AP-2sB">
+                                <rect key="frame" x="20" y="252" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IlH-90-uZ3" firstAttribute="top" secondItem="sQc-eZ-HuZ" secondAttribute="bottom" constant="8" id="88m-j0-Ur7"/>
+                            <constraint firstItem="sQc-eZ-HuZ" firstAttribute="top" secondItem="wv9-bi-Emo" secondAttribute="bottom" constant="8" id="ALl-cK-JdJ"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="sQc-eZ-HuZ" secondAttribute="leading" id="DW7-Ro-GKt"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="LQB-AP-2sB" secondAttribute="leading" id="HM8-5i-PVE"/>
+                            <constraint firstItem="LQB-AP-2sB" firstAttribute="top" secondItem="IlH-90-uZ3" secondAttribute="bottom" constant="-30" id="Ol7-Ft-xaH"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="IlH-90-uZ3" secondAttribute="leading" id="ah2-OZ-gC0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LQB-AP-2sB" secondAttribute="trailing" id="ibl-mw-ldT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sQc-eZ-HuZ" secondAttribute="trailing" id="m7T-Fh-9Dj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IlH-90-uZ3" secondAttribute="trailing" id="pZd-7t-zga"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="R2h-DD-5b4">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="Lm1-lS-TpG">
+                            <connections>
+                                <action selector="doneButtonTapped:" destination="IP3-2p-c3t" id="XPf-WX-aNa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="alertWordTextField" destination="LQB-AP-2sB" id="MmE-ia-b97"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eg8-e7-e1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1822" y="-1097"/>
+        </scene>
         <!--Alert Cam-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -34,14 +96,20 @@
                             <constraint firstAttribute="leadingMargin" secondItem="ZwA-yK-iEJ" secondAttribute="leading" id="bn0-ji-M14"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Alert Cam" id="zPp-wX-VGv"/>
+                    <navigationItem key="navigationItem" title="Alert Cam" id="zPp-wX-VGv">
+                        <barButtonItem key="leftBarButtonItem" image="Settings-32" id="Dmt-m4-7kb">
+                            <connections>
+                                <segue destination="9Ka-Rx-IJ1" kind="showDetail" id="83h-vg-UoS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="recordingLabel" destination="ZwA-yK-iEJ" id="4rl-No-1JA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="282"/>
+            <point key="canvasLocation" x="1000" y="-410"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TcZ-VF-hwb">
@@ -61,5 +129,26 @@
             </objects>
             <point key="canvasLocation" x="322" y="-410"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N9i-fL-hKH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9Ka-Rx-IJ1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Wdu-or-lik">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IP3-2p-c3t" kind="relationship" relationship="rootViewController" id="NnD-sw-Jvc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="geB-4P-YxB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="-1097"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Settings-32" width="32" height="32"/>
+    </resources>
 </document>
