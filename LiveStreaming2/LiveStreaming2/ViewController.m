@@ -294,7 +294,6 @@
                 self.stopButton.hidden = NO;
                 
                 
-                // TODO: send video to url
                 
                 //Create temporary URL to record to
                 NSString *outputPath = [[NSString alloc] initWithFormat:@"%@%@", NSTemporaryDirectory(), @"output.mov"];
@@ -311,6 +310,8 @@
                 
                 //Start recording
                 [MovieFileOutput startRecordingToOutputFileURL:outputURL recordingDelegate:self];
+                // TODO: send video to url
+
                 
             }
             else
