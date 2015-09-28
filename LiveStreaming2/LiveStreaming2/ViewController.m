@@ -70,6 +70,7 @@
     //---------------------------------
     NSLog(@"Setting up capture session");
     CaptureSession = [[AVCaptureSession alloc] init];
+
     
     //----- ADD INPUTS -----
     NSLog(@"Adding video input");

@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'LiveStreaming2' do
+
+platform :ios, '6.0'
+pod 'VideoCore', '~> 0.2.0'
+
+end
+
+target 'LiveStreaming2Tests' do
+
+end
+
+target 'LiveStreaming2UITests' do
+
+end
+
