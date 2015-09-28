@@ -149,7 +149,7 @@
     //	AVCaptureSessionPreset1280x720 - 1280x720 720p HD (check its supported before setting it)
     //	AVCaptureSessionPresetPhoto - Full photo resolution (not supported for video output)
     NSLog(@"Setting image quality");
-    [CaptureSession setSessionPreset:AVCaptureSessionPresetMedium];
+    [CaptureSession setSessionPreset:AVCaptureSessionPresetLow];
     if ([CaptureSession canSetSessionPreset:AVCaptureSessionPreset640x480])		//Check size based configs are supported before setting them
         [CaptureSession setSessionPreset:AVCaptureSessionPreset640x480];
     
@@ -292,6 +292,9 @@
                 
                 self.recordingLabel.hidden = NO;
                 self.stopButton.hidden = NO;
+                
+                
+                // TODO: send video to url
                 
                 //Create temporary URL to record to
                 NSString *outputPath = [[NSString alloc] initWithFormat:@"%@%@", NSTemporaryDirectory(), @"output.mov"];
