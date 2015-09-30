@@ -14,6 +14,8 @@
 #import <OpenEars/OEPocketsphinxController.h>
 #import <OpenEars/OEAcousticModel.h>
 
+#import "ViewController.h"
+
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *alertWordTextField;
 
@@ -67,7 +69,10 @@
 
 - (IBAction)doneButtonTapped:(id)sender {
     
-    [self dismissViewControllerAnimated:YES completion:nil];
+//    [self dismissViewControllerAnimated:YES completion:nil];
+[self performSegueWithIdentifier:@"unwindSegue" sender:self];
+    
+    
 }
 
 
@@ -80,5 +85,7 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
 
 @end

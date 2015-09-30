@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "454F0D791E7F426BD0BDD75B"
+               BlueprintIdentifier = "FB45D258AAEA4214DEEB087A"
                BuildableName = "libPods-LiveStreaming2.a"
                BlueprintName = "Pods-LiveStreaming2"
                ReferencedContainer = "container:Pods.xcodeproj">

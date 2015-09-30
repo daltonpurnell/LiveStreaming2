@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		077258536E926834475CBAD70BF71EF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EA4254636A7289C1381AB055A19EEE /* CoreGraphics.framework */; };
 		097F17DBCF137EEFF673652194626910 /* AudioMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = B99D9BCD1A1492F580E23AD359E3F98D /* AudioMixer.h */; };
+		0CF149944FB0E2331B552186B1CF6E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4931B4ACA37F8CDFF8A3D381481D4 /* Foundation.framework */; };
 		0D3986022643CA75EE14A28CDAFB6499 /* H264Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1949DDA4AF419AF943150006AD96D3 /* H264Encode.h */; };
 		0D554B418B3B1A8CE119FE3FD37413D7 /* AACEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D1EEA022274AB1EAA67E3B2CF2F267B /* AACEncode.h */; };
 		0E9ACA730E79CEB59B13A3FB04E18153 /* MicSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D91FD478ECE93653B9F5EF72E3E625B /* MicSource.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -17,16 +18,18 @@
 		15D57E9E3D0AB41CC62FA7537BCD3C54 /* MicSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 177DEDBE4539436ECF53570D9FF4B461 /* MicSource.h */; };
 		163561B9544DBB1AE43A5430F21F5A05 /* Split.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E7B889ABF51B04249B5C0152C24816 /* Split.h */; };
 		1667FFD48FC781189072C04AD10083B6 /* AspectTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = E0115BC9863CEA23E990B178A12F3DF3 /* AspectTransform.h */; };
+		18512F0E5C3C578C509F951C64A83716 /* UriParser-cpp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB07BEC12ACD5C7DDA5BA4507A686F6 /* UriParser-cpp-dummy.m */; };
 		1AA1AD282EB0922FC6606C8D96F304C7 /* TCPThroughputAdaptation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5452CBCA1468E2E71E6C0BADDC1A575 /* TCPThroughputAdaptation.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1D1AC2D6600BDC20BEE82C399A6EC770 /* AudioMixer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71E84D0CCCD5BF76A00FD8AEF6663A73 /* AudioMixer.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		23942A3925E4D7A0C0E13E366593D436 /* VCPreviewView.mm in Sources */ = {isa = PBXBuildFile; fileRef = D9F48918DD2501E9BDBA094DF65334F4 /* VCPreviewView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		23969065AD55976E2714164B2633A66E /* UriParser-cpp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B64193E5C0B437F0B5192409CD957279 /* UriParser-cpp-dummy.m */; };
+		26BA6BC101A445F7E7A47B561C521F29 /* UriParser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D8C0545C4E1A6FE0B6B5A2FDBECF9571 /* UriParser.hpp */; };
 		28BC0A48DC48202719F9FA2A0206FC19 /* GenericPixelBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB10FA8327E0B0E54EB92C00AC7ADB8 /* GenericPixelBuffer.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2CAD7E513422358D0ABCE4F550849BBB /* H264Packetizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FD1545EE056A0441091EF2D83189C9 /* H264Packetizer.h */; };
 		2F7CBB70F22D1AF4371CFA6DE6AE12AD /* IAudioMixer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 483551BE736337E4EED915395A530DF0 /* IAudioMixer.hpp */; };
-		3520D8EAFC6A6061A9ED0B13396517A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA8EF6EF5223E653997630A81ACEB25 /* Foundation.framework */; };
+		3520D8EAFC6A6061A9ED0B13396517A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4931B4ACA37F8CDFF8A3D381481D4 /* Foundation.framework */; };
 		368EE5E204F091A7346AB9E075548DB1 /* TCPThroughputAdaptation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB3C02F8B42AE07F213B4C61EE2B2EB /* TCPThroughputAdaptation.h */; };
 		3A8484C4C1C079EAD8FA3679A34F85BA /* H264Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = B91891BF0CBF7D92C2AD2A98C1996F4C /* H264Encode.h */; };
+		3B275924FFE86422DFF796CA6756BE72 /* UriCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 771BF46AF932AFCCD559170373CE0896 /* UriCodec.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E04C0F4614CD378A07037CAEF904482 /* PixelBufferSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35F78A094B310598CEC467C494073722 /* PixelBufferSource.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3FDDA1D442AD45A311980EEB1AD83A31 /* MP4Multiplexer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2F1621F7167A80640697A89B41808DFF /* MP4Multiplexer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4960DD43D353F98340151D8479B64435 /* VideoCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D603852B5BF7B27E869619AD286D52D9 /* VideoCore-dummy.m */; };
@@ -61,7 +64,6 @@
 		960B397E9FD815C1B49B3EBCAFD78300 /* RTMPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E483B2C2D61F7EC2E6C996E1CEED782 /* RTMPSession.h */; };
 		A3376D75DA798FDE7D77C26BB821CCD3 /* PositionTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEE402FE7017BFE2641A33CEBE7C759B /* PositionTransform.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A4A9D77ACCDB955370930353107148B0 /* Split.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FABEDD1AEE11A88A1301265F16C7C5D /* Split.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A83ECBD884BEE3694DB380255614AFD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA8EF6EF5223E653997630A81ACEB25 /* Foundation.framework */; };
 		A908C297E36013209CD21D028339EBC3 /* Golomb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6324F2CF432737F9568B2A9020F0D49 /* Golomb.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		AE021A4252645250AF3AF946A2886F0D /* IOutputSession.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 605E5D4D6AE3625FE902D26675521B2C /* IOutputSession.hpp */; };
 		AFAC8AE1899B50D0811A3B3BAAD982CF /* AACPacketizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A3064A16DD3066834005DD4777331437 /* AACPacketizer.h */; };
@@ -77,7 +79,6 @@
 		CCEADE62F375D02779529317D3430C24 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B570A3E3817A8F496401510822D1C2B9 /* CoreMedia.framework */; };
 		CE4809330A6AF884925C7DF01CABF13D /* GenericAudioMixer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCFA1E9C102F81D75D453C5A4BE46A6 /* GenericAudioMixer.h */; };
 		CEA3F3940822C7B79CF23569E18E2491 /* IMetaData.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E66D07C67B9A6F58DF5820C115293345 /* IMetaData.hpp */; };
-		D0B6E4200BA257AA51A60B21EA3E2B73 /* UriParser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1CAC83E492974CC4CA525A5584E25CD7 /* UriParser.hpp */; };
 		D0CE994FF6FF36E8B3A93AA52BB7A390 /* PixelBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 72B43924ED0A42476640EAECF75976D7 /* PixelBuffer.h */; };
 		D1D2607A62D7FD71C26F4C04B2457FC2 /* BasicVideoFilterBGRA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E671C5F1D08A49E5B83B4E7D1BEB9B1E /* BasicVideoFilterBGRA.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E0AF0A1A6822C8908017A5972B0F97E5 /* AACEncode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2D1D151011417A226B6C5B0307BBF67 /* AACEncode.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -89,32 +90,31 @@
 		F5EDEF27807ACC0D4B3539A647ABAFE7 /* StreamSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 696E2CD706B5E97F6DB52DEAE92C844F /* StreamSession.h */; };
 		F8988F7B2E15FFFA50D1E7BB72D0267C /* ISource.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0348EE75A8C105CECDBF1F7C4732E5D2 /* ISource.hpp */; };
 		F8E32D03EE1B6FF1CF3C31158EF12C55 /* IVideoFilter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AE9DB5620B40E7CDE809DBF59E1712EB /* IVideoFilter.hpp */; };
-		F99CF63E09964959B8F8AF4E05B594D2 /* UriCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503C6739B8381D52E9472D470B89F9FC /* UriCodec.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FB54F687E702132F18484A6EBD1AC9ED /* GenericPixelBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFBDC748B063EBEE5D428B4820DCAA8 /* GenericPixelBuffer.h */; };
-		FB96AC84BBD051C084493B9D3E905894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA8EF6EF5223E653997630A81ACEB25 /* Foundation.framework */; };
+		FB96AC84BBD051C084493B9D3E905894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4931B4ACA37F8CDFF8A3D381481D4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7279C1308DC649F60386508E3120D64F /* PBXContainerItemProxy */ = {
+		19700F8E09739E2F6A2AF28EE199A2C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC30564D5CE749803CBF9A1653FCDF7F;
+			remoteInfo = "UriParser-cpp";
+		};
+		BB66864F0EB86AC7F51BE19C561CFDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC30564D5CE749803CBF9A1653FCDF7F;
+			remoteInfo = "UriParser-cpp";
+		};
+		D1C7A23987A5E4C57348AF9C7FBD3E77 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F838EA0154AC80A7B9A0D3937BA1796F;
 			remoteInfo = VideoCore;
-		};
-		AB3604BDA1B24782FB312936C43F7882 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C39CEB24B85381762D7A6B4A586D0FA1;
-			remoteInfo = "UriParser-cpp";
-		};
-		CDA8FB0E88A35C8DC586304DB617F335 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C39CEB24B85381762D7A6B4A586D0FA1;
-			remoteInfo = "UriParser-cpp";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -150,7 +150,6 @@
 		1A274034CA8D6E320A545BABB871D6A7 /* Pods-LiveStreaming2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LiveStreaming2-acknowledgements.plist"; sourceTree = "<group>"; };
 		1BB1DE72D88733543BBB01959E595931 /* RTMPTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPTypes.h; path = rtmp/RTMPTypes.h; sourceTree = "<group>"; };
 		1C3C8355E8D2C655340B6CA8DACFB77D /* IFilter.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = IFilter.hpp; path = filters/IFilter.hpp; sourceTree = "<group>"; };
-		1CAC83E492974CC4CA525A5584E25CD7 /* UriParser.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = UriParser.hpp; sourceTree = "<group>"; };
 		1CDC24E0419F26FB6B98638A00CCA0DC /* RTMPSession.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = RTMPSession.cpp; path = rtmp/RTMPSession.cpp; sourceTree = "<group>"; };
 		1EBBCD1B38D155B4742B4A746AA82C01 /* wrap.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = wrap.hpp; path = glm/gtx/wrap.hpp; sourceTree = "<group>"; };
 		23651ABC72CC6AFFFAF31BBC5015A973 /* hint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hint.hpp; path = glm/core/hint.hpp; sourceTree = "<group>"; };
@@ -162,6 +161,7 @@
 		27D2668B198F807D1D781C69BA13530F /* type_mat4x4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_mat4x4.hpp; path = glm/core/type_mat4x4.hpp; sourceTree = "<group>"; };
 		282293E958A42721DFC7A3B2F6219E04 /* matrix_inverse.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matrix_inverse.hpp; path = glm/gtc/matrix_inverse.hpp; sourceTree = "<group>"; };
 		298ABEDBB52B46138D2C7452BBD8DAC0 /* fast_square_root.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_square_root.hpp; path = glm/gtx/fast_square_root.hpp; sourceTree = "<group>"; };
+		29AE8D846582E48504B2449B14A641FE /* libUriParser-cpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUriParser-cpp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C784A73647255AFBB72A49DDB55C7E /* std_based_type.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = std_based_type.hpp; path = glm/gtx/std_based_type.hpp; sourceTree = "<group>"; };
 		2B7250D0EA6F516D5DBF84EC2EB7B219 /* fast_trigonometry.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = fast_trigonometry.hpp; path = glm/gtx/fast_trigonometry.hpp; sourceTree = "<group>"; };
 		2C0A6D05BB56A18A56CA21FC1E7BCEA4 /* _vectorize.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = _vectorize.hpp; path = glm/core/_vectorize.hpp; sourceTree = "<group>"; };
@@ -178,12 +178,12 @@
 		3B771001466A1CD0A11B2B62EB9D1DE7 /* color_space.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = color_space.hpp; path = glm/gtx/color_space.hpp; sourceTree = "<group>"; };
 		3C812C90FABFA66DD4DF75AC43470128 /* intrinsic_matrix.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrinsic_matrix.hpp; path = glm/core/intrinsic_matrix.hpp; sourceTree = "<group>"; };
 		3D91FD478ECE93653B9F5EF72E3E625B /* MicSource.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MicSource.mm; path = sources/iOS/MicSource.mm; sourceTree = "<group>"; };
+		3DB07BEC12ACD5C7DDA5BA4507A686F6 /* UriParser-cpp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UriParser-cpp-dummy.m"; sourceTree = "<group>"; };
 		3E9E55DA7A8399AE33BD41A8E0777552 /* matrix_interpolation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matrix_interpolation.hpp; path = glm/gtx/matrix_interpolation.hpp; sourceTree = "<group>"; };
 		3EB1ABB6432EEE3B243EF100F4ABB60D /* projection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = projection.hpp; path = glm/gtx/projection.hpp; sourceTree = "<group>"; };
 		3F0A0EC0774CDF526AA87908EBCF9415 /* norm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = norm.hpp; path = glm/gtx/norm.hpp; sourceTree = "<group>"; };
 		42986660B2372199DEF3A7C71D486CA2 /* noise.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = noise.hpp; path = glm/gtx/noise.hpp; sourceTree = "<group>"; };
 		42BCF0DEBA2C7CB28945B86B42C74942 /* verbose_operator.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = verbose_operator.hpp; path = glm/gtx/verbose_operator.hpp; sourceTree = "<group>"; };
-		4329A56827223A1D2CFD7F0B37A63529 /* UriParser-cpp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UriParser-cpp-Private.xcconfig"; sourceTree = "<group>"; };
 		44A349EE87837F0B58F5CFC290F66350 /* type_vec4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_vec4.hpp; path = glm/core/type_vec4.hpp; sourceTree = "<group>"; };
 		463661C60FC9C116A4134C82ACFD9DFF /* libVideoCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVideoCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		467DFC59F867419E1164E1985806897A /* Pods-LiveStreaming2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LiveStreaming2-dummy.m"; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 		4D0ADE34FFE42D25FD43D73EF450ED96 /* reciprocal.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = reciprocal.hpp; path = glm/gtc/reciprocal.hpp; sourceTree = "<group>"; };
 		4FABEDD1AEE11A88A1301265F16C7C5D /* Split.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Split.cpp; path = transforms/Split.cpp; sourceTree = "<group>"; };
 		4FB93A5261954D65CB58F92674B1B020 /* type_mat2x2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_mat2x2.hpp; path = glm/core/type_mat2x2.hpp; sourceTree = "<group>"; };
-		503C6739B8381D52E9472D470B89F9FC /* UriCodec.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UriCodec.cpp; sourceTree = "<group>"; };
 		5060EFD03CAFDEA5A1CF29187DBDD3D6 /* intersect.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intersect.hpp; path = glm/gtx/intersect.hpp; sourceTree = "<group>"; };
+		520264DA2198510E0763D42A3438803C /* UriParser-cpp-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UriParser-cpp-Private.xcconfig"; sourceTree = "<group>"; };
 		524CF21392E9F38245A70CD96A1354BC /* VCSimpleSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = VCSimpleSession.mm; path = api/iOS/VCSimpleSession.mm; sourceTree = "<group>"; };
 		527C3B5062A4260C0D4B8FF90B964EC6 /* _detail.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = _detail.hpp; path = glm/core/_detail.hpp; sourceTree = "<group>"; };
 		52DC1D3EDE28BAD9896991EC207A5B69 /* random.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = random.hpp; path = glm/gtx/random.hpp; sourceTree = "<group>"; };
@@ -228,6 +228,7 @@
 		72B43924ED0A42476640EAECF75976D7 /* PixelBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PixelBuffer.h; path = system/pixelBuffer/Apple/PixelBuffer.h; sourceTree = "<group>"; };
 		74944EA5582960FD1E92BB6A352D4A8D /* rotate_vector.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = rotate_vector.hpp; path = glm/gtx/rotate_vector.hpp; sourceTree = "<group>"; };
 		76FFCFDB21DDC00532F36CF02CFE3758 /* transform2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = transform2.hpp; path = glm/gtx/transform2.hpp; sourceTree = "<group>"; };
+		771BF46AF932AFCCD559170373CE0896 /* UriCodec.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = UriCodec.cpp; sourceTree = "<group>"; };
 		77B73C55F148821FC842E7CE78084185 /* H264Encode.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = H264Encode.mm; path = transforms/Apple/H264Encode.mm; sourceTree = "<group>"; };
 		7A85D095EA26088F8F44A1809DB5AA28 /* Pods-LiveStreaming2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LiveStreaming2-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7AB42CCB53494EE2380E3D38ADAE2A11 /* H264Packetizer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = H264Packetizer.cpp; path = transforms/RTMP/H264Packetizer.cpp; sourceTree = "<group>"; };
@@ -271,13 +272,12 @@
 		AE6533C30D84E68F8C1EDA4C19541DE5 /* setup.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = setup.hpp; path = glm/core/setup.hpp; sourceTree = "<group>"; };
 		AE9C1CEEEEAFB582E2C490FF7EA5297F /* IVideoMixer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = IVideoMixer.hpp; path = mixers/IVideoMixer.hpp; sourceTree = "<group>"; };
 		AE9DB5620B40E7CDE809DBF59E1712EB /* IVideoFilter.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = IVideoFilter.hpp; path = filters/IVideoFilter.hpp; sourceTree = "<group>"; };
-		AFA8EF6EF5223E653997630A81ACEB25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B0E62F85BFF5B3641528D19CCA746BE5 /* matrix_integer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matrix_integer.hpp; path = glm/gtc/matrix_integer.hpp; sourceTree = "<group>"; };
 		B0FE8BDFDB5B84B8B19E90D3AE7BDCD1 /* type_mat2x4.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_mat2x4.hpp; path = glm/core/type_mat2x4.hpp; sourceTree = "<group>"; };
+		B1C4931B4ACA37F8CDFF8A3D381481D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B26AD245FE560062E841B2B949B042B8 /* AspectTransform.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = AspectTransform.cpp; path = transforms/AspectTransform.cpp; sourceTree = "<group>"; };
 		B4DB52205AAF68ACE5E94DF5F69292B1 /* type_ptr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_ptr.hpp; path = glm/gtc/type_ptr.hpp; sourceTree = "<group>"; };
 		B570A3E3817A8F496401510822D1C2B9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
-		B64193E5C0B437F0B5192409CD957279 /* UriParser-cpp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UriParser-cpp-dummy.m"; sourceTree = "<group>"; };
 		B6D19AC7066CA9FB3F7F916082E2CCDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B6F1E99E70C5EE3002DB88C9421172F3 /* func_integer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = func_integer.hpp; path = glm/core/func_integer.hpp; sourceTree = "<group>"; };
 		B82D8BAE392EDD232F0E4E16D3E5E248 /* raw_data.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = raw_data.hpp; path = glm/gtx/raw_data.hpp; sourceTree = "<group>"; };
@@ -303,13 +303,13 @@
 		CEFA150E9EEB2D929F995D9D57399F03 /* _swizzle_func.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = _swizzle_func.hpp; path = glm/core/_swizzle_func.hpp; sourceTree = "<group>"; };
 		CF62A7D7439A3028F382C9D30029EC93 /* matrix_operation.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = matrix_operation.hpp; path = glm/gtx/matrix_operation.hpp; sourceTree = "<group>"; };
 		D1A8F9AEEBC7F11F0FC279216F2F2D78 /* Pods-LiveStreaming2-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LiveStreaming2-resources.sh"; sourceTree = "<group>"; };
-		D1E838DDFF46B9D9CAFB3F02743D4652 /* libUriParser-cpp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUriParser-cpp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D1D151011417A226B6C5B0307BBF67 /* AACEncode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = AACEncode.cpp; path = transforms/iOS/AACEncode.cpp; sourceTree = "<group>"; };
 		D5452CBCA1468E2E71E6C0BADDC1A575 /* TCPThroughputAdaptation.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TCPThroughputAdaptation.cpp; path = stream/TCPThroughputAdaptation.cpp; sourceTree = "<group>"; };
 		D603852B5BF7B27E869619AD286D52D9 /* VideoCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VideoCore-dummy.m"; sourceTree = "<group>"; };
 		D6324F2CF432737F9568B2A9020F0D49 /* Golomb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Golomb.cpp; path = system/h264/Golomb.cpp; sourceTree = "<group>"; };
 		D71F5654C1A858423D51EDBB32BCB475 /* VCPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VCPreviewView.h; path = api/iOS/VCPreviewView.h; sourceTree = "<group>"; };
 		D8527F800290AEC3DF631546F11D12DB /* intrinsic_exponential.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrinsic_exponential.hpp; path = glm/core/intrinsic_exponential.hpp; sourceTree = "<group>"; };
+		D8C0545C4E1A6FE0B6B5A2FDBECF9571 /* UriParser.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = UriParser.hpp; sourceTree = "<group>"; };
 		D9F48918DD2501E9BDBA094DF65334F4 /* VCPreviewView.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = VCPreviewView.mm; path = api/iOS/VCPreviewView.mm; sourceTree = "<group>"; };
 		DA45139F9DBBAF5E8675769C974C13B5 /* number_precision.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = number_precision.hpp; path = glm/gtx/number_precision.hpp; sourceTree = "<group>"; };
 		DADF7C829E541FF31412A27D9CA42F94 /* intrinsic_vector_relational.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = intrinsic_vector_relational.hpp; path = glm/core/intrinsic_vector_relational.hpp; sourceTree = "<group>"; };
@@ -350,6 +350,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C7BB7C8163EACF84F63F9F008C0604D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF149944FB0E2331B552186B1CF6E61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC42AF04A848E413225CC6DE6FC69A43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,14 +371,6 @@
 				3520D8EAFC6A6061A9ED0B13396517A6 /* Foundation.framework in Frameworks */,
 				E73BCB79577096D45E4E7CBE6A3B3061 /* OpenGLES.framework in Frameworks */,
 				F3B1DB42552BAB26A7AC06AD7B2651D2 /* VideoToolbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDE662DBA6097ABB22783C7A5909950E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A83ECBD884BEE3694DB380255614AFD4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +388,8 @@
 		325AD66ECD22F05A72020D7404DC7E70 /* UriParser-cpp */ = {
 			isa = PBXGroup;
 			children = (
-				503C6739B8381D52E9472D470B89F9FC /* UriCodec.cpp */,
-				1CAC83E492974CC4CA525A5584E25CD7 /* UriParser.hpp */,
+				771BF46AF932AFCCD559170373CE0896 /* UriCodec.cpp */,
+				D8C0545C4E1A6FE0B6B5A2FDBECF9571 /* UriParser.hpp */,
 				9955A2B044F94D52B1782A4B3BCAD2C5 /* Support Files */,
 			);
 			path = "UriParser-cpp";
@@ -517,8 +517,8 @@
 			isa = PBXGroup;
 			children = (
 				179B3151BC06DD991E21ACB803E3A379 /* UriParser-cpp.xcconfig */,
-				4329A56827223A1D2CFD7F0B37A63529 /* UriParser-cpp-Private.xcconfig */,
-				B64193E5C0B437F0B5192409CD957279 /* UriParser-cpp-dummy.m */,
+				520264DA2198510E0763D42A3438803C /* UriParser-cpp-Private.xcconfig */,
+				3DB07BEC12ACD5C7DDA5BA4507A686F6 /* UriParser-cpp-dummy.m */,
 				139C669D21B2436242E62C461270797B /* UriParser-cpp-prefix.pch */,
 			);
 			name = "Support Files";
@@ -671,7 +671,7 @@
 				C1EA4254636A7289C1381AB055A19EEE /* CoreGraphics.framework */,
 				B570A3E3817A8F496401510822D1C2B9 /* CoreMedia.framework */,
 				F0AA19B214DC88E69492B32E9E5F8185 /* CoreVideo.framework */,
-				AFA8EF6EF5223E653997630A81ACEB25 /* Foundation.framework */,
+				B1C4931B4ACA37F8CDFF8A3D381481D4 /* Foundation.framework */,
 				133D59B3CB449BDA3B5860451A7D001C /* OpenGLES.framework */,
 				C5AF8167A4B345BEA4D323191700D520 /* VideoToolbox.framework */,
 			);
@@ -682,7 +682,7 @@
 			isa = PBXGroup;
 			children = (
 				E924D68F13025365271168F0C73C4427 /* libPods-LiveStreaming2.a */,
-				D1E838DDFF46B9D9CAFB3F02743D4652 /* libUriParser-cpp.a */,
+				29AE8D846582E48504B2449B14A641FE /* libUriParser-cpp.a */,
 				463661C60FC9C116A4134C82ACFD9DFF /* libVideoCore.a */,
 			);
 			name = Products;
@@ -756,11 +756,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2520808D19355630B42EDAFD36113EB2 /* Headers */ = {
+		72BB90D263B52E81C7458A110734B447 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B6E4200BA257AA51A60B21EA3E2B73 /* UriParser.hpp in Headers */,
+				26BA6BC101A445F7E7A47B561C521F29 /* UriParser.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,21 +777,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				21455A1745380D1D57B1A213ED35B5DC /* PBXTargetDependency */,
-				EAAECA12FC02A4E0386F0AE478AD4A18 /* PBXTargetDependency */,
+				18CC7F8327781BEE2AB7F974C8D25C5F /* PBXTargetDependency */,
+				3C160B76C0F8E9BB39C9ABC5811456F0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LiveStreaming2";
 			productName = "Pods-LiveStreaming2";
 			productReference = E924D68F13025365271168F0C73C4427 /* libPods-LiveStreaming2.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C39CEB24B85381762D7A6B4A586D0FA1 /* UriParser-cpp */ = {
+		EC30564D5CE749803CBF9A1653FCDF7F /* UriParser-cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1316D23A7FA6CADF7A3DF5A79CA04E20 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */;
+			buildConfigurationList = DADE7AF1E8FE9D6A7C0FE79707EA9651 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */;
 			buildPhases = (
-				D7CC8E2B6E9AD52360BFF6D29640949C /* Sources */,
-				CDE662DBA6097ABB22783C7A5909950E /* Frameworks */,
-				2520808D19355630B42EDAFD36113EB2 /* Headers */,
+				F72F2E76FDB0485951FEA790896EB9CB /* Sources */,
+				C7BB7C8163EACF84F63F9F008C0604D0 /* Frameworks */,
+				72BB90D263B52E81C7458A110734B447 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -799,7 +799,7 @@
 			);
 			name = "UriParser-cpp";
 			productName = "UriParser-cpp";
-			productReference = D1E838DDFF46B9D9CAFB3F02743D4652 /* libUriParser-cpp.a */;
+			productReference = 29AE8D846582E48504B2449B14A641FE /* libUriParser-cpp.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F838EA0154AC80A7B9A0D3937BA1796F /* VideoCore */ = {
@@ -813,7 +813,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2FB71AD5732CA3F404CE8D22C0A81DF2 /* PBXTargetDependency */,
+				93D8AFDB12FD552D08D8A77B1DF0692E /* PBXTargetDependency */,
 			);
 			name = VideoCore;
 			productName = VideoCore;
@@ -842,7 +842,7 @@
 			projectRoot = "";
 			targets = (
 				44FCDBD2E16A02C9D5943F95C15A4C72 /* Pods-LiveStreaming2 */,
-				C39CEB24B85381762D7A6B4A586D0FA1 /* UriParser-cpp */,
+				EC30564D5CE749803CBF9A1653FCDF7F /* UriParser-cpp */,
 				F838EA0154AC80A7B9A0D3937BA1796F /* VideoCore */,
 			);
 		};
@@ -854,15 +854,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B21590BFCD07846F83D61A925C206613 /* Pods-LiveStreaming2-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D7CC8E2B6E9AD52360BFF6D29640949C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F99CF63E09964959B8F8AF4E05B594D2 /* UriCodec.cpp in Sources */,
-				23969065AD55976E2714164B2633A66E /* UriParser-cpp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,26 +890,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F72F2E76FDB0485951FEA790896EB9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B275924FFE86422DFF796CA6756BE72 /* UriCodec.cpp in Sources */,
+				18512F0E5C3C578C509F951C64A83716 /* UriParser-cpp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21455A1745380D1D57B1A213ED35B5DC /* PBXTargetDependency */ = {
+		18CC7F8327781BEE2AB7F974C8D25C5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "UriParser-cpp";
-			target = C39CEB24B85381762D7A6B4A586D0FA1 /* UriParser-cpp */;
-			targetProxy = AB3604BDA1B24782FB312936C43F7882 /* PBXContainerItemProxy */;
+			target = EC30564D5CE749803CBF9A1653FCDF7F /* UriParser-cpp */;
+			targetProxy = BB66864F0EB86AC7F51BE19C561CFDF6 /* PBXContainerItemProxy */;
 		};
-		2FB71AD5732CA3F404CE8D22C0A81DF2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UriParser-cpp";
-			target = C39CEB24B85381762D7A6B4A586D0FA1 /* UriParser-cpp */;
-			targetProxy = CDA8FB0E88A35C8DC586304DB617F335 /* PBXContainerItemProxy */;
-		};
-		EAAECA12FC02A4E0386F0AE478AD4A18 /* PBXTargetDependency */ = {
+		3C160B76C0F8E9BB39C9ABC5811456F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VideoCore;
 			target = F838EA0154AC80A7B9A0D3937BA1796F /* VideoCore */;
-			targetProxy = 7279C1308DC649F60386508E3120D64F /* PBXContainerItemProxy */;
+			targetProxy = D1C7A23987A5E4C57348AF9C7FBD3E77 /* PBXContainerItemProxy */;
+		};
+		93D8AFDB12FD552D08D8A77B1DF0692E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UriParser-cpp";
+			target = EC30564D5CE749803CBF9A1653FCDF7F /* UriParser-cpp */;
+			targetProxy = 19700F8E09739E2F6A2AF28EE199A2C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -938,22 +938,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		55F6FF5E57CB4B39BB0A6ECFDD55C782 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4329A56827223A1D2CFD7F0B37A63529 /* UriParser-cpp-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -994,22 +978,6 @@
 			};
 			name = Debug;
 		};
-		68CA40A9B84D13D56CCA91AEE5D3AC76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4329A56827223A1D2CFD7F0B37A63529 /* UriParser-cpp-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		74ABAD1770AA642B084C99AE3AA0BB44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5C2006DECC4BA62E2188BB2655863E /* VideoCore-Private.xcconfig */;
@@ -1041,6 +1009,22 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		8C8953E80A225EB2749CCCA9B4C2BA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520264DA2198510E0763D42A3438803C /* UriParser-cpp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1076,6 +1060,22 @@
 			};
 			name = Release;
 		};
+		E8FE58AC653D6BF58CF9B0C8B6F535BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 520264DA2198510E0763D42A3438803C /* UriParser-cpp-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UriParser-cpp/UriParser-cpp-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FED1F67D2D05CE440EA24C154BBE5FFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD5C2006DECC4BA62E2188BB2655863E /* VideoCore-Private.xcconfig */;
@@ -1095,15 +1095,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1316D23A7FA6CADF7A3DF5A79CA04E20 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68CA40A9B84D13D56CCA91AEE5D3AC76 /* Debug */,
-				55F6FF5E57CB4B39BB0A6ECFDD55C782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1127,6 +1118,15 @@
 			buildConfigurations = (
 				74ABAD1770AA642B084C99AE3AA0BB44 /* Debug */,
 				FED1F67D2D05CE440EA24C154BBE5FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADE7AF1E8FE9D6A7C0FE79707EA9651 /* Build configuration list for PBXNativeTarget "UriParser-cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C8953E80A225EB2749CCCA9B4C2BA94 /* Debug */,
+				E8FE58AC653D6BF58CF9B0C8B6F535BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

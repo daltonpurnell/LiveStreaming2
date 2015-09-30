@@ -43,4 +43,5 @@ dependencies: \
   /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/Framework/OpenEars.framework/Headers/OESmartCMN.h \
   /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/Framework/OpenEars.framework/Headers/prim_type.h \
   /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/Framework/OpenEars.framework/Headers/sphinx_config.h \
-  /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/Framework/OpenEars.framework/Headers/OENotification.h
+  /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/Framework/OpenEars.framework/Headers/OENotification.h \
+  /Users/djp1989/Documents/Development/PersonalProjects/LiveStreaming2/LiveStreaming2/LiveStreaming2/ViewController.h

@@ -56,6 +56,7 @@
                         <barButtonItem key="rightBarButtonItem" title="Done" id="Lm1-lS-TpG">
                             <connections>
                                 <action selector="doneButtonTapped:" destination="IP3-2p-c3t" id="XPf-WX-aNa"/>
+                                <segue destination="RNt-4j-iBd" kind="unwind" identifier="unwindSegue" unwindAction="prepareForUnwind:" id="DR1-gr-I7T"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -64,6 +65,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eg8-e7-e1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="RNt-4j-iBd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1822" y="-1097"/>
         </scene>

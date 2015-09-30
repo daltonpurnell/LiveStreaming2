@@ -18,6 +18,11 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *stopButton;
+@property (strong, nonatomic) NSString *lmPath;
+@property (strong, nonatomic) NSString *dicPath;
+@property (strong, nonatomic) OELanguageModelGenerator *lmGenerator;
+
+
 
 @end
 
@@ -35,21 +40,21 @@
 
     
     // set up openears language model
-    OELanguageModelGenerator *lmGenerator = [[OELanguageModelGenerator alloc] init];
+    self.lmGenerator = [[OELanguageModelGenerator alloc] init];
     
     
     NSArray *words = [NSArray arrayWithObjects:@"Help", nil];
     NSString *name = @"NameIWantForMyLanguageModelFiles";
-    NSError *err = [lmGenerator generateLanguageModelFromArray:words withFilesNamed:name forAcousticModelAtPath:[OEAcousticModel pathToModel:@"AcousticModelEnglish"]]; // Change "AcousticModelEnglish" to "AcousticModelSpanish" to create a Spanish language model instead of an English one.
+    NSError *err = [self.lmGenerator generateLanguageModelFromArray:words withFilesNamed:name forAcousticModelAtPath:[OEAcousticModel pathToModel:@"AcousticModelEnglish"]]; // Change "AcousticModelEnglish" to "AcousticModelSpanish" to create a Spanish language model instead of an English one.
     
-    NSString *lmPath = [NSString stringWithFormat:@"%@/NameIWantForMyLanguageModelFiles.%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0],@"DMP"];
+    self.lmPath = [NSString stringWithFormat:@"%@/NameIWantForMyLanguageModelFiles.%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0],@"DMP"];
     
-    NSString *dicPath = [NSString stringWithFormat:@"%@/NameIWantForMyLanguageModelFiles.%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0],@"DMP"];
+    self.dicPath = [NSString stringWithFormat:@"%@/NameIWantForMyLanguageModelFiles.%@",[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0],@"DMP"];
     
     if(err == nil) {
         
-        lmPath = [lmGenerator pathToSuccessfullyGeneratedLanguageModelWithRequestedName:@"NameIWantForMyLanguageModelFiles"];
-        dicPath = [lmGenerator pathToSuccessfullyGeneratedDictionaryWithRequestedName:@"NameIWantForMyLanguageModelFiles"];
+        self.lmPath = [self.lmGenerator pathToSuccessfullyGeneratedLanguageModelWithRequestedName:@"NameIWantForMyLanguageModelFiles"];
+        self.dicPath = [self.lmGenerator pathToSuccessfullyGeneratedDictionaryWithRequestedName:@"NameIWantForMyLanguageModelFiles"];
         
     } else {
         NSLog(@"Error: %@",[err localizedDescription]);
@@ -62,7 +67,7 @@
     
     
     [[OEPocketsphinxController sharedInstance] setActive:TRUE error:nil];
-    [[OEPocketsphinxController sharedInstance] startListeningWithLanguageModelAtPath:lmPath dictionaryAtPath:dicPath acousticModelAtPath:[OEAcousticModel pathToModel:@"AcousticModelEnglish"] languageModelIsJSGF:NO]; // Change "AcousticModelEnglish" to "AcousticModelSpanish" to perform Spanish recognition instead of English.
+    [[OEPocketsphinxController sharedInstance] startListeningWithLanguageModelAtPath:self.lmPath dictionaryAtPath:self.dicPath acousticModelAtPath:[OEAcousticModel pathToModel:@"AcousticModelEnglish"] languageModelIsJSGF:NO]; // Change "AcousticModelEnglish" to "AcousticModelSpanish" to perform Spanish recognition instead of English.
     
     
     //---------------------------------
@@ -310,6 +315,9 @@
                 
                 //Start recording
                 [MovieFileOutput startRecordingToOutputFileURL:outputURL recordingDelegate:self];
+               
+                
+                
                 // TODO: send video to url
 
                 
@@ -423,6 +431,13 @@ didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL
     self.recordingLabel.hidden = YES;
     [MovieFileOutput stopRecording];
 
+}
+
+-(IBAction)prepareForUnwind:(UIStoryboardSegue *)segue {
+    
+    
+    ViewController *viewController = [segue destinationViewController];
+    self.customAlertWord = viewController.customAlertWord;
 }
 
 @end
